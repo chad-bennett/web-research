@@ -35,8 +35,9 @@
       var is_top_frame = (window === window.parent);
         
         var pageToc = [
-          {title: "H1 - Welcome to the site", url: "#_top", children: [
-              {title: "H2 - Subheadline", url: "#h2-subheadline" },
+          {title: "Web Foundations", url: "#_top", children: [
+              {title: "digital media and design", url: "#digital-media-and-design" },
+              {title: "the site", url: "#the-site" },
           ]},
         ];
 
@@ -96,15 +97,53 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <ul class="wm-toctree">
         <li class="wm-toc-li wm-toc-lev1 "><a href="" class="wm-article-link wm-toc-text">home</a>
 </li>
-        <li class="wm-toc-li wm-toc-lev1 "><a href="about/" class="wm-article-link wm-toc-text">about</a>
-</li>
-        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">category section</span>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">intro to internet</span>
 </li>
 <li class="wm-toc-li-nested collapse">
   <ul class="wm-toctree">
-      <li class="wm-toc-li wm-toc-lev2 "><a href="assignment/" class="wm-article-link wm-toc-text">assignment</a>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="codingAM/" class="wm-article-link wm-toc-text">coding languages</a>
 </li>
-      <li class="wm-toc-li wm-toc-lev2 "><a href="template/" class="wm-article-link wm-toc-text">template</a>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="codingPM/" class="wm-article-link wm-toc-text">coding languages</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="hardwarePM/" class="wm-article-link wm-toc-text">internet hardware</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="historyAM/" class="wm-article-link wm-toc-text">history of internet</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="networkAM/" class="wm-article-link wm-toc-text">network terminology</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">internet issues</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="encryptPM/" class="wm-article-link wm-toc-text">encryption</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="privacyAM/" class="wm-article-link wm-toc-text">privacy</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="privacyPM/" class="wm-article-link wm-toc-text">privacy</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="securePM/" class="wm-article-link wm-toc-text">security threats</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="virusAM/" class="wm-article-link wm-toc-text">viruses & adware</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="virusPM/" class="wm-article-link wm-toc-text">viruses & adware</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">web development</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="webdevAM/" class="wm-article-link wm-toc-text">web development software</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="browserPM/" class="wm-article-link wm-toc-text">browsers</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="imagesAM/" class="wm-article-link wm-toc-text">images</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="hostingAM/" class="wm-article-link wm-toc-text">web hosting</a>
 </li>
   </ul>
 </li>
@@ -129,12 +168,12 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="about/" class="btn btn-xs btn-default pull-right">
+      <a href="codingAM/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="about/" class="btn btn-xs btn-link">
-        about
+      <a href="codingAM/" class="btn btn-xs btn-link">
+        coding languages
       </a>
     </div>
     
@@ -142,35 +181,15 @@ if (is_top_frame) { $('body').addClass('wm-top-page'); }
 
     
 
-    <h1 id="h1-welcome-to-the-site">H1 - Welcome to the site</h1>
-<p>this is a demo page of what things look like using the mkdocs system. i am using it to tweak the visual settings so that everything looks better than the default template. </p>
-<p>this is a demo page of what things look like using the mkdocs system. i am using it to tweak the visual settings so that everything looks better than the default template. </p>
-<p>this is normal text with <a href="https://duckduckgo.com">a hyperlink</a>.</p>
-<blockquote>
-<p><img alt="image should be here" src="trees2.jpg" />
-caption for image goes here. </p>
-<p>use blockquotes in markdown to get the styling to work properly</p>
-</blockquote>
+    <h1 id="web-foundations">Web Foundations</h1>
+<p>This site serves as a simple foundation introduction to the internet  and issues related to web. Students were assigned different topics to research and explore. In addition to writing a short introduction to their topic, students were required to create a relevant illustration and include links to additional resources. </p>
+<p>Many topics have multiple entries because there are two class  sections and a limited amount of topics being researched. Each student  is credited on their individual page. </p>
 <hr />
-<h2 id="h2-subheadline">H2 - Subheadline</h2>
-<p>these subheads will show up in the table of contents selectors in the sidebar. </p>
-<p><strong>unordered list</strong></p>
-<ul>
-<li>bullet list item</li>
-<li>bullet list item</li>
-<li>bullet list item</li>
-<li>bullet list item</li>
-</ul>
-<p><strong>ordered list</strong></p>
-<ol>
-<li>numbered list item</li>
-<li>more items in the list</li>
-<li>even more items in the list</li>
-</ol>
-<hr />
-<h3 id="h3-subheadline">H3 - subheadline</h3>
-<p>these subheads will <strong>not</strong> show up in the table of contents selectors in the sidebar. </p>
-<p>this is more text stuff here. </p>
+<h2 id="digital-media-and-design">digital media and design</h2>
+<p>The Digital Media and Design program is the visual design course at the <a href="http://www.eatonresa.org/services/career-and-technical-education/">Eaton RESA Career Preparation Center</a> at <a href="https://lcc.edu/">Lansing Community College</a>.   Students are high-school juniors and seniors attending college level  classes and potentially earning college credit. Over the course of one  school year, students are introduced to basic Design and Communication  concepts, computer graphic design using Photoshop, and Web Design  development. These courses are foundation classes in the Art Design &amp; Multimedia program at LCC. </p>
+<p><a href="https://chad-bennett.github.io/home/">Chad Bennett</a> is the course instructor. Please direct any questions or comments to him. </p>
+<h2 id="the-site">the site</h2>
+<p>This site was created using the <a href="http://www.mkdocs.org/">MKDocs</a> site generation system with a modified version of the <a href="https://gristlabs.github.io/mkdocs-windmill/">Windmill theme</a> by <a href="https://github.com/gristlabs">Grist Labs</a>. All content was collected, curated, and created by the students of the Digital Media and Design program. </p>
 
   <br>
     
@@ -183,12 +202,12 @@ caption for image goes here. </p>
   <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
     
     <div class="wm-article-nav pull-right">
-      <a href="about/" class="btn btn-xs btn-default pull-right">
+      <a href="codingAM/" class="btn btn-xs btn-default pull-right">
         Next
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
-      <a href="about/" class="btn btn-xs btn-link">
-        about
+      <a href="codingAM/" class="btn btn-xs btn-link">
+        coding languages
       </a>
     </div>
     
@@ -205,5 +224,5 @@ caption for image goes here. </p>
 </html>
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-02-07 17:57:55
+Build Date UTC : 2019-02-25 15:54:23
 -->

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>encryption - web foundations research project</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <link href="../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Encryption the story of security", url: "#_top", children: [
+              {title: "resources", url: "#resources" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../privacyAM/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../privacyAM/" class="btn btn-xs btn-link">
+        privacy
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../networkAM/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../networkAM/" class="btn btn-xs btn-link">
+        network terminology
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="encryption-the-story-of-security">Encryption the story of security</h1>
+<p><strong>Mitchal Graham</strong></p>
+<blockquote>
+<p><img alt="header image" src="../encryptPM.jpg" />
+image copyright &copy; Mitchal</p>
+</blockquote>
+<p>The idea of encryption began a very long time ago with the idea of cryptography and just trying to keep things a secret has been around for thousands of year, in fact it dates back even further than 600 BCE. Though its most known use was in World War II where Germany had made an invention called the enigma machine to confuse the allies, though they eventually got through it.
+Encryptions most useful purpose is not to stop the “allies” of the past but to stop the worst of people on the internet: cyber-criminals, black hat hackers and anyone who wants to know everything about you.</p>
+<p>Web encryption is a very important as it is really the only way we can get data on the internet to another place safely, what encryption really is, is scrambling number and letters and then deciphering them, the act of unscrambling them to make sense again, this concept is only as good as the algorithms used such as the famous SHA (Secure Hash Algorithm) used in modern computing which uses a cryptographic hash function, takes an input and produces a hash value and this is a bit confusing at first but it can be helped by thinking of keys and locks.</p>
+<p>A server has a thing called a public key that is capable of encrypting files and is sent to you and everyone so you can encrypt your files, but it is not capable of decrypting files but then how does the server read the encrypted text… it uses a private key made only for the server only accessible by the server and never accessible by you or anyone. But you need to encrypt things too… so your computer makes its own key and never ever gives its raw data, no your computer encrypts it using the public key and sends it to the server meaning an encrypted key is sent on the net to the server which is capable of decrypting it using its private key. There now both you and the server have a key and lock that no one else knows.</p>
+<hr />
+<h2 id="resources">resources</h2>
+<ul>
+<li><a href="www.youtube.com/watch?v=6H_9l9N3IXU&amp;t=266s">Frame of Essence. “Will Quantum Computers Break Encryption?</a></li>
+<li><a href="www.youtube.com/watch?v=M7kEpw1tn50">“Encryption and HUGE Numbers - Numberphile.”</a></li>
+<li><a href="en.wikipedia.org/wiki/Encryption">Encryption. Wikipedia, Wikimedia Foundation</a></li>
+</ul>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../privacyAM/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../privacyAM/" class="btn btn-xs btn-link">
+        privacy
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../networkAM/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../networkAM/" class="btn btn-xs btn-link">
+        network terminology
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
